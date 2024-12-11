@@ -81,6 +81,28 @@
       font-size: 40px;
     }
     
+    #contact {
+      display: flex;
+    }
+    
+    form {
+      flex-basis: 50%;
+      
+    }
+    
+    .inputsWrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 20px;
+      margin-top: 60px;
+      margin-left: 600px;
+    }
+    
+    .inputsWrapper input {
+      padding: 10px 16px;
+      width: 100%;      
+    }
        footer {
       display: flex;
       justify-content: space-between;
@@ -118,6 +140,25 @@
                 <li> <a href="#"> contact </a></li>
               </ul>
           </nav>
+        </div>
+        <div class="header-content">
+        <h1> contact </h1>
+      </div>   
+      </section>
+      <section id="contact" class="container">
+        <form action="#">
+           <h1> get in touch! </h1>
+          
+          <div class="inputsWrapper">
+            <input type="text" placeholder="your name">
+            <input type="text" placeholder="your phone number">
+            <input type="email" placeholder="your email">
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+            <button class="primary-btn"> submit </button>
+          </div>
+        </form>
+        <div class="address"> 
+          <h1> leave me a message! </h1>
         </div>
       </section>
        <footer>
